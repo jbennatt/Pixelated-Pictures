@@ -2,7 +2,7 @@
 A project that can be used to create a "pixelated picture" of pictures. The input picture will be recreated by using an array of pictures (instead of pixels). See [example](https://github.com/jbennatt/Pixelated-Pictures/blob/master/example-picture.png).
 
 # Dependencies
-[java image scaling](https://mvnrepository.com/artifact/com.mortennobel/java-image-scaling)
+[java image scaling](https://mvnrepository.com/artifact/com.mortennobel/java-image-scaling). Although I realize this is old and not very popular, at the time, I used it because it was recommended in a StackOverflow post.
 
 ## Usage
 This project is not in a finished state. To see how to use it, Look at the file [src/pixelated_pictures/database/testing/DBWriteTest.java](https://github.com/jbennatt/Pixelated-Pictures/blob/master/src/pixelated_pictures/database/testing/DBWriteTest.java) to see how to create a db folder and file. This routine creates a folder, `db-test parallel`, which will contain the scaled down pictures and a file, `dbFile.txt`, which contains information for each of the (scaled down) files. On `line 22`, you will see where to specify where to search for pictures to be used for pixelation. Change `G:\\Pictures` to the root directory where all the pictures you wish to use are (the more there are the better the program will work).
